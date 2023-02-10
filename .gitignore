@@ -127,3 +127,16 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+*.pyc
+htmlcov
+.coverage
+coverage.xml
+.cbc_dev.env
+node_modules
+ui/tests/coverage
+.devcontainer
+pg_data
+.idea
+

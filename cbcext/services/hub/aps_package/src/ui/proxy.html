@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- We declare that we will use the JS SDK -->
+        <script src="/aps/2/ui/runtime/client/aps/aps.js"></script>
+        <!-- script type="text/javascript" src="/aps/2/ui/runtime/client/3rd-party/jquery/jquery.js"></script-->
+        <script type="text/javascript">
+            require([
+                "aps/ready!cbcext/services/hub/aps_package/src/ui"
+            ], function() {
+                var fullViewId = aps.context.view.id;
+                var regExpr = /#(.*)/;
+                var match = regExpr.exec(fullViewId);
+                switch (match[1]) {
+                    default:
+                        require(['./js/' + match[1] + '.js']);
+                }
+            }
+            );
+        </script>
+    </head>
+    <body>
+    </body>
+</html>

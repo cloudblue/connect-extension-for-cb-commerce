@@ -1,0 +1,875 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#, fuzzy
+msgid ""
+msgstr "Project-Id-Version: 19.3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: English <EMAIL@ADDRESS>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# @generated
+#: schemas/globals.schema:35
+#: ui/ux1pcp/settings.js:76
+msgid "Account ID"
+msgstr "アカウント ID"
+
+# @generated
+#: ui/ux1pcp/settings.js:71
+msgid "Account Name"
+msgstr "アカウント名"
+
+# @generated
+#: ui/js/tierconfiglist.js:95
+#: ui/js/mylist.js:242
+#: ui/js/generalsettings.js:116
+#: ui/ux1pcp/productmanagement.js:492
+#: ui/ux1pcp/productmanagement.js:521
+#: ui/ux1pcp/settings.js:263
+#: ui/ux1/tierconfigs.js:147
+msgid "Actions"
+msgstr "アクション"
+
+# @generated
+#: APP-META.xml:167
+msgid "Application service"
+msgstr "アプリケーションサービス"
+
+# @generated
+#: APP-META.xml:19
+msgid "Application that provides integration with CloudBlue Connect, with this\n"
+"            application provider can\n"
+"            handle operations such as adding connect products, centralize account data changes,\n"
+"            handle automatic usage\n"
+"            file processing, periodic health checks, handle tier configurations for provider and\n"
+"            resellers, etc.\n"
+"            Each hub using CloudBlue Connect must have it installed."
+msgstr "CloudBlue Connect との統合を提供するアプリケーションは、この\n"
+" アプリケーションプロバイダーで\n"
+" 接続プロダクトの追加などのオペレーション処理、アカウントデータ変更の集中化、\n"
+" 自動使用状況\n"
+" ファイル処理、定期ヘルスチェックの処理、プロバイダーやリセラーのティア構成処理\n"
+" などが可能です。\n"
+" CloudBlue Connect を利用するハブごとにインストールする必要があります。"
+
+# @generated
+#: ui/js/productmanagement.js:214
+#: ui/ux1pcp/productmanagement.js:398
+msgid "Applying ST limits"
+msgstr "ST リミットを適用中"
+
+# @generated
+#: ui/js/taskDetails.js:26
+msgid "Back"
+msgstr "戻る"
+
+# @generated
+#: APP-META.xml:70
+#: ui/js/viewconfig.js:202
+msgid "Cancel"
+msgstr "キャンセル"
+
+# @generated
+#: APP-META.xml:29
+msgid "CB Connect Logo"
+msgstr "CB Connect ロゴ"
+
+# @generated
+#: ui/js/generalsettings.js:37
+#: ui/ux1pcp/settings.js:20
+msgid "Centralized management of integration from the CloudBlue Connect to the CloudBlue Commerce."
+msgstr "CloudBlue Connect から CloudBlue Commerce への統合の管理を集中化しました。"
+
+# @generated
+#: APP-META.xml:8
+#: APP-META.xml:12
+msgid "CloudBlue"
+msgstr "CloudBlue"
+
+# @generated
+#: APP-META.xml:84
+msgid "CloudBlue Connect"
+msgstr "CloudBlue Connect"
+
+# @generated
+#: APP-META.xml:18
+#: ui/js/generalsettings.js:33
+#: ui/ux1pcp/settings.js:24
+msgid "CloudBlue Connect Extension"
+msgstr "CloudBlue Connect 拡張機能"
+
+# @generated
+#: APP-META.xml:166
+msgid "CloudBlue Connect Extension Application Service"
+msgstr "CloudBlue Connect 拡張機能アプリケーションサービス"
+
+# @generated
+#: APP-META.xml:170
+msgid "CloudBlue Connect Extension Documentation"
+msgstr "CloudBlue Connect 拡張機能ドキュメント"
+
+# @generated
+#: APP-META.xml:188
+msgid "CloudBlue Connect Extension Initialization task service"
+msgstr "CloudBlue Connect 拡張機能初期化タスクサービス"
+
+# @generated
+#: APP-META.xml:181
+msgid "CloudBlue Connect Extension Tier Configuration Service"
+msgstr "CloudBlue Connect 拡張機能ティア構成サービス"
+
+# @generated
+#: APP-META.xml:173
+msgid "CloudBlue Connect Provider Portal"
+msgstr "CloudBlue Connect プロバイダーポータル"
+
+# @generated
+#: ui/js/productmanagement.js:220
+#: ui/ux1pcp/productmanagement.js:404
+msgid "Completed"
+msgstr "完了"
+
+# @generated
+#: ui/js/tierconfiglist.js:46
+#: ui/ux1/tierconfigs.js:98
+#: ui/ux1/viewconfig.js:190
+msgid "Configuration ID"
+msgstr "構成 ID"
+
+# @generated
+#: APP-META.xml:76
+#: APP-META.xml:125
+#: APP-META.xml:128
+#: APP-META.xml:134
+msgid "Connect"
+msgstr "接続"
+
+# @generated
+#: ui/js/generalsettings.js:14
+msgid "Connect Cloudblue Commerce extension is not properly installed"
+msgstr "Connect CloudBlue Commerce 拡張機能が適切にインストールされていません"
+
+# @generated
+#: ui/js/productmanagement.js:126
+#: ui/ux1pcp/productmanagement.js:202
+msgid "Connection ID"
+msgstr "接続 ID"
+
+# @generated
+#: ui/ux1pcp/productmanagement.js:464
+msgid "Create Connection"
+msgstr "接続を作成"
+
+# @generated
+#: ui/js/productmanagement.js:180
+#: ui/ux1pcp/productmanagement.js:364
+msgid "Created RT #"
+msgstr "作成済み RT #"
+
+# @generated
+#: ui/js/productmanagement.js:189
+#: ui/ux1pcp/productmanagement.js:373
+msgid "Created ST ID"
+msgstr "作成済み ST ID"
+
+# @generated
+#: ui/js/productmanagement.js:206
+#: ui/ux1pcp/productmanagement.js:390
+msgid "Creating application instance"
+msgstr "アプリケーションインスタンスを作成中"
+
+# @generated
+#: ui/js/productmanagement.js:210
+#: ui/ux1pcp/productmanagement.js:394
+msgid "Creating item RTs"
+msgstr "アイテム RT を作成中"
+
+# @generated
+#: ui/js/productmanagement.js:212
+#: ui/ux1pcp/productmanagement.js:396
+msgid "Creating ST"
+msgstr "ST を作成中"
+
+# @generated
+#: ui/js/productmanagement.js:208
+#: ui/ux1pcp/productmanagement.js:392
+msgid "Creating system RTs"
+msgstr "システム RT を作成中"
+
+# @generated
+#: APP-META.xml:63
+#: APP-META.xml:108
+#: ui/js/productmanagement.js:229
+#: ui/js/productmanagement.js:236
+#: ui/ux1pcp/productmanagement.js:413
+#: ui/ux1pcp/productmanagement.js:420
+msgid "Details"
+msgstr "詳細"
+
+# @generated
+#: ui/ux1pcp/settings.js:163
+msgid "Do you want to upgrade the CloudBlue Connect Extension Now?"
+msgstr "今すぐ CloudBlue Connect 拡張機能をアップグレードしてもよろしいですか？"
+
+# @generated
+#: ui/ux1pcp/productmanagement.js:243
+msgid "Do you want to __operation__ this product now?"
+msgstr "このプロダクトの __operation__ を続行してもよろしいですか？"
+
+# @generated
+#: ui/ux1/viewconfig.js:205
+msgid "Edit"
+msgstr "編集"
+
+# @generated
+#: APP-META.xml:67
+msgid "Edit Parameters"
+msgstr "パラメーターを編集"
+
+# @generated
+#: ui/ux1pcp/settings.js:37
+msgid "Error"
+msgstr "エラー"
+
+# @generated
+#: ui/js/viewconfig.js:192
+#: ui/ux1/editparams.js:117
+msgid "Error updating configuration, try again later"
+msgstr "構成アップデート中のエラーです。後ほどやり直してください"
+
+# @generated
+#: ui/js/generalsettings.js:250
+msgid "Error while passing healthcheck:"
+msgstr "ヘルスチェック渡し中のエラー："
+
+# @generated
+#: ui/ux1pcp/settings.js:229
+msgid "Error while performing system health check:"
+msgstr "システムのヘルスチェック中のエラー："
+
+# @generated
+#: ui/js/generalsettings.js:208
+#: ui/ux1pcp/settings.js:199
+msgid "Error while scheduling upgrade task:"
+msgstr "アップグレードタスクのスケジュール中のエラー："
+
+# @generated
+#: ui/js/productmanagement.js:162
+#: ui/ux1pcp/productmanagement.js:346
+msgid "Executed"
+msgstr "実行済み"
+
+# @generated
+#: schemas/globals.schema:24
+msgid "External ID"
+msgstr "外部 ID"
+
+# @generated
+#: schemas/globals.schema:25
+msgid "External ID for this CloudBlue Commerce instance"
+msgstr "この CloudBlue Commerce インスタンスの外部 ID"
+
+# @generated
+#: ui/js/generalsettings.js:157
+#: ui/ux1pcp/settings.js:141
+msgid "Health check error:"
+msgstr "ヘルスチェックエラー："
+
+# @generated
+#: ui/js/productmanagement.js:152
+#: ui/ux1pcp/productmanagement.js:224
+msgid "Here you can find the list of actions performed to this product. To learn more about this extension, please refer to "
+msgstr "こちらにこのプロダクトに対して実行されたアクションのリストがあります。この拡張機能の詳細の参照先"
+
+# @generated
+#: ui/js/mylist.js:169
+msgid "Here you can manage services from subscriptions assigned to your account directly."
+msgstr "こちらで直接アカウントに割り当てられた契約の管理ができます。"
+
+# @generated
+#: APP-META.xml:13
+msgid "https://connect.cloudblue.com"
+msgstr "https://connect.cloudblue.com"
+
+# @generated
+#: APP-META.xml:9
+msgid "https://connect.cloudblue.com/"
+msgstr "https://connect.cloudblue.com/"
+
+# @generated
+#: ui/ux1pcp/settings.js:86
+msgid "Hub ID"
+msgstr "ハブ ID"
+
+# @generated
+#: schemas/globals.schema:15
+msgid "Hub Identifier"
+msgstr "ハブ ID"
+
+# @generated
+#: schemas/globals.schema:16
+msgid "Hub Identifier that represents this CloudBlue Commerce instance at CloudBlue Connect"
+msgstr "CloudBlue Connect でこの CloudBlue Commerce インスタンスを表すハブ ID"
+
+# @generated
+#: ui/ux1pcp/settings.js:81
+msgid "Hub Instance ID"
+msgstr "ハブのインスタンス ID"
+
+# @generated
+#: schemas/productInitTask.schema:33
+msgid "ID of the ST created on install operations"
+msgstr "インストールオペレーションで作成される ST の ID"
+
+# @generated
+#: ui/js/productmanagement.js:222
+#: ui/ux1pcp/productmanagement.js:406
+msgid "Importing application"
+msgstr "アプリケーションをインポート中"
+
+# @generated
+#: ui/js/viewconfig.js:215
+#: ui/js/viewconfig.js:221
+msgid "Information provided to vendor"
+msgstr "ベンダーに提供される情報"
+
+# @generated
+#: APP-META.xml:45
+msgid "Initial release"
+msgstr "初期リリース"
+
+# @generated
+#: ui/js/tierconfiglist.js:82
+#: ui/ux1/tierconfigs.js:134
+#: ui/ux1/viewconfig.js:160
+msgid "Inquiring"
+msgstr "問い合わせ中"
+
+# @generated
+#: ui/js/productmanagement.js:44
+#: ui/ux1pcp/productmanagement.js:270
+msgid "Installation process initiated"
+msgstr "開始したインストールプロセス"
+
+# @generated
+#: ui/js/tierconfiglist.js:124
+#: ui/js/tierconfiglist.js:133
+#: ui/ux1/tierconfigs.js:176
+#: ui/ux1/tierconfigs.js:185
+msgid "is not available now, please try again later."
+msgstr "は現在利用できません。後でやり直してください。"
+
+# @generated
+#: ui/ux1pcp/productmanagement.js:46
+#: ui/ux1/viewconfig.js:44
+msgid "Loading"
+msgstr "ロード中"
+
+# @generated
+#: ui/js/tierconfiglist.js:113
+#: ui/js/mylist.js:247
+#: ui/js/generalsettings.js:122
+#: ui/ux1pcp/settings.js:269
+#: ui/ux1/tierconfigs.js:165
+msgid "Manage"
+msgstr "管理"
+
+# @generated
+#: ui/js/mylist.js:261
+msgid "Manage Backup"
+msgstr "バックアップを管理"
+
+# @generated
+#: ui/js/mylist.js:271
+msgid "Manage Cloud Storage"
+msgstr "クラウドストレージを管理"
+
+# @generated
+#: APP-META.xml:86
+#: APP-META.xml:136
+msgid "Manage Product"
+msgstr "プロダクトを管理"
+
+# @generated
+#: ui/js/tierconfiglist.js:20
+#: ui/ux1/tierconfigs.js:68
+msgid "Manage settings of the products in your account here."
+msgstr "アカウントにあるプロダクトの設定をここで管理します。"
+
+# @generated
+#: ui/js/tierconfiglist.js:124
+#: ui/js/tierconfiglist.js:133
+#: ui/ux1/tierconfigs.js:176
+#: ui/ux1/tierconfigs.js:185
+msgid "Managing of product "
+msgstr "プロダクトの管理"
+
+# @generated
+#: ui/js/productmanagement.js:256
+#: ui/ux1pcp/productmanagement.js:149
+msgid "Missing Connection"
+msgstr "接続がありません"
+
+# @generated
+#: ui/js/mylist.js:296
+msgid "Mozy Account"
+msgstr "Mozy アカウント"
+
+# @generated
+#: ui/js/mylist.js:286
+msgid "Mozy Reseller"
+msgstr "Mozy リセラー"
+
+# @generated
+#: APP-META.xml:51
+#: APP-META.xml:60
+#: APP-META.xml:96
+#: APP-META.xml:102
+#: APP-META.xml:104
+#: APP-META.xml:107
+msgid "My Services"
+msgstr "マイサービス"
+
+# @generated
+#: ui/ux1pcp/productmanagement.js:160
+msgid "New Version available"
+msgstr "新しいバージョンを利用できます"
+
+# @generated
+#: ui/ux1pcp/productmanagement.js:245
+#: ui/ux1pcp/settings.js:162
+msgid "No"
+msgstr "いいえ"
+
+# @generated
+#: ui/js/productmanagement.js:158
+#: ui/ux1pcp/productmanagement.js:231
+msgid "No actions performed to this product"
+msgstr "このプロダクトに対して実行されたアクションはありません"
+
+# @generated
+#: ui/js/productmanagement.js:129
+msgid "No Connection available"
+msgstr "利用可能な接続はありません"
+
+# @generated
+#: ui/ux1/viewconfig.js:215
+msgid "No parameters available matching your search criteria"
+msgstr "検索条件に一致する使用可能なパラメーターはありません"
+
+# @generated
+#: ui/js/tierconfiglist.js:27
+#: ui/js/mylist.js:176
+#: ui/ux1pcp/settings.js:102
+#: ui/ux1/tierconfigs.js:75
+msgid "No services available matching your search criteria"
+msgstr "検索条件に一致する利用可能なサービスはありません"
+
+# @generated
+#: schemas/productInitTask.schema:39
+msgid "Number of retries in current step"
+msgstr "現在のステップでの再試行回数"
+
+# @generated
+#: ui/js/productmanagement.js:174
+#: ui/ux1pcp/productmanagement.js:358
+msgid "Operation"
+msgstr "オペレーション"
+
+# @generated
+#: ui/js/productmanagement.js:292
+#: ui/js/productmanagement.js:328
+#: ui/ux1pcp/productmanagement.js:154
+msgid "Operation in progress"
+msgstr "オペレーションが進行中"
+
+# @generated
+#: schemas/productInitTask.schema:22
+msgid "Operation step"
+msgstr "オペレーションステップ"
+
+# @generated
+#: ui/js/productmanagement.js:152
+#: ui/js/generalsettings.js:78
+#: ui/ux1pcp/productmanagement.js:224
+#: ui/ux1pcp/settings.js:95
+msgid "our documentation"
+msgstr "ドキュメント"
+
+# @generated
+#: ui/ux1/viewconfig.js:304
+msgid "Parameter"
+msgstr "パラメーター"
+
+# @generated
+#: ui/ux1/viewconfig.js:203
+msgid "Parameters"
+msgstr "パラメーター"
+
+# @generated
+#: ui/js/viewconfig.js:124
+#: ui/js/viewconfig.js:142
+#: ui/ux1/editparams.js:55
+#: ui/ux1/editparams.js:75
+msgid "Please provide value"
+msgstr "値を指定してください"
+
+# @generated
+#: ui/js/generalsettings.js:78
+#: ui/ux1pcp/settings.js:95
+msgid "Please refer to the list below to manage products available to you through the Provider Portal of the CloudBlue Connect. To learn more about this extension, please refer to "
+msgstr "下のリストを参照して CloudBlue Connect のプロバイダーポータル経由で利用可能なプロダクトを管理してください。この拡張機能の詳細の参照先"
+
+# @generated
+#: ui/ux1pcp/productmanagement.js:124
+msgid "Please wait while you are being redirected to Provider Portal..."
+msgstr "プロバイダーポータルにリダイレクトしています。しばらくお待ちください..."
+
+# @generated
+#: ui/ux1/viewconfig.js:122
+msgid "Please wait while you are being redirected..."
+msgstr "リダイレクトしています。しばらくお待ちください..."
+
+# @generated
+#: ui/js/tierconfiglist.js:87
+#: ui/ux1/tierconfigs.js:139
+msgid "Processing"
+msgstr "処理中"
+
+# @generated
+#: ui/js/tierconfiglist.js:34
+#: ui/js/productmanagement.js:122
+#: ui/js/generalsettings.js:98
+#: ui/ux1pcp/productmanagement.js:197
+#: ui/ux1pcp/settings.js:245
+#: ui/ux1/tierconfigs.js:92
+#: ui/ux1/viewconfig.js:195
+msgid "Product ID"
+msgstr "プロダクト ID"
+
+# @generated
+#: schemas/productInitTask.schema:12
+msgid "Product ID task refers to"
+msgstr "プロダクト ID タスク参照先"
+
+# @generated
+#: ui/js/generalsettings.js:141
+#: ui/ux1pcp/settings.js:130
+msgid "Product Management operations are disabled due lack of CloudBlue Connect openapi adapter installed on this hub"
+msgstr "プロダクト管理オペレーションは、このハブにインストールされた CloudBlue Connect openapi アダプターが不足しているため、無効になっています"
+
+# @generated
+#: APP-META.xml:39
+msgid "Product management over UI"
+msgstr "UI によるプロダクト管理"
+
+# @generated
+#: ui/js/tierconfiglist.js:40
+#: ui/js/generalsettings.js:92
+#: ui/ux1pcp/settings.js:239
+#: ui/ux1/tierconfigs.js:86
+msgid "Product Name"
+msgstr "プロダクト名"
+
+# @generated
+#: schemas/globals.schema:30
+msgid "Provider Account Name"
+msgstr "プロバイダーアカウント名"
+
+# @generated
+#: ui/js/mylist.js:224
+msgid "Provisioning"
+msgstr "プロビジョニング"
+
+# @generated
+#: ui/js/taskDetails.js:14
+msgid "Raw operation execution details"
+msgstr "Raw オペレーション実行詳細"
+
+# @generated
+#: ui/js/tierconfiglist.js:58
+#: ui/js/tierconfiglist.js:72
+#: ui/js/mylist.js:212
+#: ui/ux1pcp/settings.js:53
+#: ui/ux1/tierconfigs.js:110
+#: ui/ux1/tierconfigs.js:124
+#: ui/ux1/viewconfig.js:152
+msgid "Ready"
+msgstr "準備完了"
+
+# @generated
+#: ui/ux1pcp/productmanagement.js:170
+msgid "Ready for install"
+msgstr "インストールの準備完了"
+
+# @generated
+#: APP-META.xml:33
+msgid "Renamed Settings to My Services for handling TCR"
+msgstr "TCR 処理のためマイサービスに名前を変更した設定"
+
+# @generated
+#: ui/js/tierconfiglist.js:103
+#: ui/ux1/tierconfigs.js:155
+msgid "Requires attention"
+msgstr "要注意"
+
+# @generated
+#: schemas/productInitTask.schema:28
+msgid "Run operation also for EOS items"
+msgstr "EOS アイテムについてもオペレーションを実行する"
+
+# @generated
+#: APP-META.xml:69
+#: ui/js/viewconfig.js:164
+msgid "Save"
+msgstr "保存"
+
+# @generated
+#: APP-META.xml:189
+msgid "Service to handle initialization tasks of products"
+msgstr "プロダクトの初期化タスクを処理するサービス"
+
+# @generated
+#: APP-META.xml:182
+msgid "Service to import Tier Configuration Schema, do not create any instance of it"
+msgstr "ティア構成スキーマをインポートするサービスです。こちらについてインスタンスを作成しないでください"
+
+# @generated
+#: APP-META.xml:135
+msgid "Settings"
+msgstr "設定"
+
+# @generated
+#: ui/js/mylist.js:15
+#: ui/js/mylist.js:25
+msgid "Sorry, this functionality is not available for accounts with sub-resellers."
+msgstr "申し訳ございませんが、この機能はサブリセラーのあるアカウントに対して使用できません。"
+
+# @generated
+#: ui/js/tierconfiglist.js:52
+#: ui/js/productmanagement.js:198
+#: ui/ux1pcp/productmanagement.js:382
+#: ui/ux1/tierconfigs.js:104
+msgid "Status"
+msgstr "ステータス"
+
+# @generated
+#: ui/js/generalsettings.js:150
+#: ui/js/generalsettings.js:243
+msgid "Status: Error"
+msgstr "ステータス：エラー"
+
+# @generated
+#: ui/js/generalsettings.js:222
+#: ui/js/generalsettings.js:232
+msgid "Status: OK"
+msgstr "ステータス：OK"
+
+# @generated
+#: ui/js/generalsettings.js:164
+msgid "Status: Upgrade Available"
+msgstr "ステータス：アップグレード可能"
+
+# @generated
+#: ui/js/mylist.js:181
+msgid "Subscription Id"
+msgstr "契約 ID"
+
+# @generated
+#: ui/js/mylist.js:198
+msgid "Subscription Name"
+msgstr "契約名"
+
+# @generated
+#: ui/js/mylist.js:204
+msgid "Subscription Status"
+msgstr "契約のステータス"
+
+# @generated
+#: APP-META.xml:115
+#: APP-META.xml:116
+msgid "Subscriptions"
+msgstr "契約"
+
+# @generated
+#: APP-META.xml:143
+msgid "Task Details"
+msgstr "タスクの詳細"
+
+# @generated
+#: ui/ux1pcp/productmanagement.js:429
+msgid "Task details"
+msgstr "タスクの詳細"
+
+# @generated
+#: schemas/productInitTask.schema:18
+msgid "Task operation"
+msgstr "タスクのオペレーション"
+
+# @generated
+#: ui/js/generalsettings.js:85
+#: ui/ux1pcp/settings.js:101
+msgid "There are no products available, please check your products on provider portal."
+msgstr "利用可能なプロダクトはありません。プロバイダーポータルでプロダクトをチェックしてください。"
+
+# @generated
+#: ui/ux1pcp/settings.js:66
+msgid "This extension is configured with the following settings:"
+msgstr "この拡張機能は以下の設定で構成されています。"
+
+# @generated
+#: ui/ux1/viewconfig.js:214
+msgid "This product has no parameters"
+msgstr "このプロダクトにはパラメーターがありません"
+
+# @generated
+#: ui/js/mylist.js:217
+msgid "Trial"
+msgstr "試用版"
+
+# @generated
+#: ui/js/mylist.js:229
+msgid "Unprovisioning"
+msgstr "プロビジョニング解除中"
+
+# @generated
+#: ui/js/productmanagement.js:349
+#: ui/ux1pcp/productmanagement.js:165
+msgid "Up to Date"
+msgstr "最新"
+
+# @generated
+#: ui/js/viewconfig.js:153
+msgid "Update Information"
+msgstr "情報をアップデート"
+
+# @generated
+#: APP-META.xml:42
+msgid "Update release with backend support for multiple operations"
+msgstr "複数のオペレーションにバックエンドサポートがあるリリースをアップデートする"
+
+# @generated
+#: APP-META.xml:36
+msgid "Updated mechanism to get TARs"
+msgstr "TAR を取得するためにアップデート済みのメカニズム"
+
+# @generated
+#: ui/js/tierconfiglist.js:62
+#: ui/js/tierconfiglist.js:77
+#: ui/js/viewconfig.js:250
+#: ui/ux1/tierconfigs.js:114
+#: ui/ux1/tierconfigs.js:129
+#: ui/ux1/viewconfig.js:156
+msgid "Updating"
+msgstr "アップデート中"
+
+# @generated
+#: ui/js/generalsettings.js:40
+#: ui/ux1pcp/settings.js:31
+msgid "Updating Status"
+msgstr "ステータスをアップデート中"
+
+# @generated
+#: ui/ux1pcp/settings.js:154
+msgid "Upgrade"
+msgstr "アップグレード"
+
+# @generated
+#: ui/ux1pcp/settings.js:42
+msgid "Upgrade Available"
+msgstr "アップグレード可能"
+
+# @generated
+#: ui/ux1pcp/settings.js:160
+msgid "Upgrade Extension"
+msgstr "拡張機能をアップグレード"
+
+# @generated
+#: ui/js/generalsettings.js:172
+msgid "Upgrade Now"
+msgstr "今すぐアップグレード"
+
+# @generated
+#: ui/js/generalsettings.js:203
+#: ui/ux1pcp/settings.js:194
+msgid "Upgrade of CloudBlue Connect extension initiated"
+msgstr "CloudBlue Connect 拡張機能のアップグレードが開始されました"
+
+# @generated
+#: ui/ux1pcp/settings.js:47
+msgid "Upgrading"
+msgstr "アップグレード中"
+
+# @generated
+#: ui/js/productmanagement.js:216
+#: ui/ux1pcp/productmanagement.js:400
+msgid "Upgrading application instance"
+msgstr "アプリケーションインスタンスをアップグレード中"
+
+# @generated
+#: ui/ux1/viewconfig.js:308
+msgid "Value"
+msgstr "値"
+
+# @generated
+#: ui/js/productmanagement.js:134
+#: ui/js/generalsettings.js:110
+#: ui/ux1pcp/productmanagement.js:212
+#: ui/ux1pcp/settings.js:257
+msgid "Vendor ID"
+msgstr "ベンダー ID"
+
+# @generated
+#: ui/js/productmanagement.js:138
+#: ui/js/generalsettings.js:104
+#: ui/ux1pcp/productmanagement.js:207
+#: ui/ux1pcp/settings.js:251
+msgid "Vendor Name"
+msgstr "ベンダー名"
+
+# @generated
+#: ui/js/productmanagement.js:338
+msgid "Version __version__ available"
+msgstr "バージョン __version__ が使用可能"
+
+# @generated
+#: ui/js/productmanagement.js:218
+#: ui/ux1pcp/productmanagement.js:402
+msgid "Waiting for application upgrade completion"
+msgstr "アプリケーションアップグレード完了の待機中"
+
+# @generated
+#: ui/js/productmanagement.js:362
+#: ui/ux1pcp/productmanagement.js:435
+#: ui/ux1pcp/productmanagement.js:559
+msgid "We are sorry, an error has happened, please try again later"
+msgstr "申し訳ございませんがエラーが発生しました。後でやり直してください"
+
+# @generated
+#: ui/ux1pcp/productmanagement.js:244
+#: ui/ux1pcp/settings.js:161
+msgid "Yes"
+msgstr "はい"
+
+# @generated
+#: ui/js/tierconfiglist.js:26
+#: ui/ux1/tierconfigs.js:74
+msgid "You do not have products that require management."
+msgstr "管理が必要なプロダクトはありません。"
+
+# @generated
+#: ui/js/mylist.js:175
+msgid "You do not have services that require management yet."
+msgstr "管理が必要なサービスはまだありません。"
+
+# @generated
+#: ui/ux1pcp/productmanagement.js:242
+msgid "__operation__ Extension"
+msgstr "__operation__ 拡張機能"
+

@@ -1,0 +1,73 @@
+version: '3'
+
+services:
+  cbc_dev:
+    container_name: cbc_dev
+    build:
+      context: .
+    working_dir: /extension
+    command: cextrun -d
+    volumes: 
+      - .:/extension
+    env_file:
+      - .cbc_dev.env
+    depends_on:
+      - db
+      - redis
+
+  cbc_bash:
+    container_name: cbc_bash
+    build:
+      context: .
+    working_dir: /extension
+    command: /bin/bash
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/extension
+    environment:
+      REDIS_LOCATION: redis://redis:6379/0
+    env_file:
+      - .cbc_dev.env
+    depends_on:
+      - db
+      - redis
+
+
+  cbc_test:
+    container_name: cbc_test
+    build:
+      context: .
+    working_dir: /extension
+    command: extension-test
+    volumes:
+      - .:/extension
+    env_file:
+      - .cbc_dev.env
+
+  db:
+    image: postgres:9.6-alpine
+    restart: always
+    ports:
+      - '5433:5432'
+    expose:
+      - '5432'
+    volumes:
+      - ./pg_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: 1q2w3e
+      POSTGRES_DB: extension_cbc
+
+  db_ram:
+    image: postgres:9.6-alpine
+    tmpfs:
+      - /var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: 1q2w3e
+      POSTGRES_DB: extension_cbc
+
+  redis:
+    restart: always
+    image: redis:5.0.6-alpine
+    expose:
+      - "6379"

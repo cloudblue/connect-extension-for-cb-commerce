@@ -1,0 +1,194 @@
+{
+   "apsVersion":"2.0",
+   "name":"globals",
+   "id":"http://odin.com/servicesSelector/globals/2.4",
+   "access":{
+      "global":true
+   },
+   "implements":[
+      "http://aps-standard.org/types/core/application/1.0"
+   ],
+   "properties":{
+      "hub_id":{
+         "type":"string",
+         "required":true,
+         "title":"Hub Identifier",
+         "description":"Hub Identifier that represents this CloudBlue Commerce instance at CloudBlue Connect",
+         "access":{
+            "referrer":false
+         }
+      },
+      "hub_uuid":{
+         "type":"string",
+         "readonly":true,
+         "title":"External ID",
+         "description":"External ID for this CloudBlue Commerce instance"
+      },
+      "account_name":{
+         "type":"string",
+         "readonly":true,
+         "title":"Provider Account Name"
+      },
+      "account_id":{
+         "type":"string",
+         "readonly":true,
+         "title":"Account ID"
+      },
+      "healthcheck_task":{
+         "type":"string",
+         "readonly":true
+      },
+      "processusagechunkfiles_task":{
+         "type":"string",
+         "readonly":true
+      }
+   },
+   "operations":{
+      "accountDataChange":{
+         "verb":"POST",
+         "path":"/accountDataChange",
+         "access":{
+            "admin":true
+         },
+         "parameters":{
+            "notification":{
+               "type":"http://aps-standard.org/types/core/resource/1.0#Notification",
+               "required":true,
+               "kind":"body"
+            }
+         }
+      },
+      "healthCheck":{
+         "verb":"GET",
+         "path":"/healthCheck",
+         "response":{
+            "contentType":null,
+            "type":"object",
+            "items":null
+         },
+         "access":{
+            "admin":true,
+            "referrer": false
+         }
+      },
+      "products":{
+         "verb":"GET",
+         "path":"/products",
+         "response":{
+            "contentType":"application/json",
+            "type":"object"
+         },
+         "access":{
+            "admin":true,
+            "referrer": false
+         }
+      },
+      "productInfo":{
+         "verb":"POST",
+         "path":"/productInfo",
+         "parameters":{
+            "product":{
+               "kind":"body",
+               "type":"string"
+            }
+         },
+         "response":{
+            "contentType":"application/json",
+            "type":"object"
+         },
+         "access":{
+            "admin":true,
+            "referrer": false
+         }
+      },
+      "ItemInfo":{
+         "verb":"POST",
+         "path":"/itemInfo",
+         "parameters":{
+            "product":{
+               "kind":"body",
+               "type":"object"
+            }
+         },
+         "response":{
+            "contentType":"application/json",
+            "type":"object"
+         },
+         "access":{
+            "admin":true,
+            "referrer": false
+         }
+      },
+      "connectionsInfo":{
+         "verb":"POST",
+         "path":"/connectionsInfo",
+         "parameters":{
+            "product":{
+               "kind":"body",
+               "type":"string"
+            }
+         },
+         "response":{
+            "contentType":"application/json",
+            "type":"object"
+         },
+         "access":{
+            "admin":true,
+            "referrer": false
+         }
+      },
+      "getTierConfigs":{
+         "verb":"GET",
+         "path":"/getTierConfigs",
+         "response":{
+            "contentType":"application/json",
+            "type":"object"
+         }
+      },
+      "processUsageChunkFiles":{
+         "verb":"GET",
+         "path":"/processUsageChunkFiles",
+         "response":{
+            "contentType":null,
+            "type":"object",
+            "items":null
+         },
+         "access":{
+            "admin":true,
+            "referrer": false
+         }
+      },
+      "availableOperations": {
+        "verb": "GET",
+        "path": "/availableOperations",
+        "parameters": {
+            "product_id": {
+                "kind": "query",
+                "type": "string"
+            }
+        },
+        "access":{
+            "admin":true,
+            "referrer": false
+         }
+      },
+      "getStaticContentUrl": {
+        "verb": "GET",
+        "path": "/getStaticContentUrl",
+        "response":{
+            "contentType":"application/json",
+            "type":"object"
+        }
+      }
+   },
+   "relations":{
+      "productInitTasks":{
+         "type":"http://odin.com/app/productInitTask/1.0",
+         "collection":true
+      },
+      "accounts": {
+        "type": "http://aps-standard.org/types/core/account/1.0",
+        "collection": true
+      }
+   }
+}

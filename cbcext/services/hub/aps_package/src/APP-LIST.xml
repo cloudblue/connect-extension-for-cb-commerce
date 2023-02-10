@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<files xmlns="http://apstandard.com/ns/1">
+    <file name="ui/js/viewconfig.js" size="10320" sha256="7795dc82750e7d5b2811611386a38bf6bb911c0e484b58834c4457948cd18d28"/>
+    <file name="ui/js/mytierconfig.js" size="5743" sha256="41e057036f7ca4d106353166ed70934745322346e56df064ce7762866eeb37be"/>
+    <file name="ui/js/mylist.js" size="17300" sha256="eadfdc5c92ee6e8663f918a976e59d7778776f5100c5d8f4e799c1711f2b3377"/>
+    <file name="ui/proxy.html" size="773" sha256="a75bfd234377140c1199b7ccfc3a2945e25f37300859f0dd36a83e8be3f95e15"/>
+    <file name="ui/lib/marked.min.js" size="23179" sha256="7510ba6524899a5af6dfebf53d291ad8d0911095c77e7d5d8c44cd4e3986150e"/>
+    <file name="i18n/en_US.json" size="3" sha256="257c1be96ae69f4b01c2c69bdb6d78605f59175819fb007d0bf245bf48444c4a"/>
+    <file name="schemas/globals.schema" size="216" sha256="a1ea06adc6947023b2b550b5922d4dbde9349ba35e976403551b95e1c11993ec"/>
+    <file name="schemas/tierConfig.schema" size="204" sha256="6274e77d38a51c0511c509b2c3d74c5d25492d6c66d47a3e8c786a26247785bf"/>
+    <file name="APP-META.xml" size="2990" sha256="fdb80ebe62f228700a38be3bcffaa91262778bb5bd0949de4cab180e8e75530c"/>
+</files>

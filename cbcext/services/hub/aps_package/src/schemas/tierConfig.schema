@@ -1,0 +1,9 @@
+{
+  "apsVersion" : "2.0",
+  "name" : "app",
+  "id" : "http://odin.com/app/tier-config/1.0",
+  "implements" : [ "http://aps-standard.org/types/core/resource/1.0" ],
+  "access" : {
+    "global" : true
+  }
+}

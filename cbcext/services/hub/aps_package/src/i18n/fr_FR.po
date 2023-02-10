@@ -1,0 +1,875 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#, fuzzy
+msgid ""
+msgstr "Project-Id-Version: 19.3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: English <EMAIL@ADDRESS>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# @generated
+#: schemas/globals.schema:35
+#: ui/ux1pcp/settings.js:76
+msgid "Account ID"
+msgstr "ID du compte"
+
+# @generated
+#: ui/ux1pcp/settings.js:71
+msgid "Account Name"
+msgstr "Nom du compte"
+
+# @generated
+#: ui/js/tierconfiglist.js:95
+#: ui/js/mylist.js:242
+#: ui/js/generalsettings.js:116
+#: ui/ux1pcp/productmanagement.js:492
+#: ui/ux1pcp/productmanagement.js:521
+#: ui/ux1pcp/settings.js:263
+#: ui/ux1/tierconfigs.js:147
+msgid "Actions"
+msgstr "Actions"
+
+# @generated
+#: APP-META.xml:167
+msgid "Application service"
+msgstr "Service d'application"
+
+# @generated
+#: APP-META.xml:19
+msgid "Application that provides integration with CloudBlue Connect, with this\n"
+"            application provider can\n"
+"            handle operations such as adding connect products, centralize account data changes,\n"
+"            handle automatic usage\n"
+"            file processing, periodic health checks, handle tier configurations for provider and\n"
+"            resellers, etc.\n"
+"            Each hub using CloudBlue Connect must have it installed."
+msgstr "Application assurant l'intégration avec CloudBlue Connect. Le fournisseur de cette application peut prendre en charge des opérations telles que l'ajout de produits Connect, la centralisation des modifications des données de compte, le traitement automatique des fichiers d'utilisation, les contrôles d'intégrité périodiques, la gestion des configurations de niveaux pour les fournisseurs et les revendeurs, etc.\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+" Chaque hub utilisant CloudBlue Connect doit avoir installé cette application."
+
+# @generated
+#: ui/js/productmanagement.js:214
+#: ui/ux1pcp/productmanagement.js:398
+msgid "Applying ST limits"
+msgstr "Application de limites ST"
+
+# @generated
+#: ui/js/taskDetails.js:26
+msgid "Back"
+msgstr "Retour"
+
+# @generated
+#: APP-META.xml:70
+#: ui/js/viewconfig.js:202
+msgid "Cancel"
+msgstr "Annuler"
+
+# @generated
+#: APP-META.xml:29
+msgid "CB Connect Logo"
+msgstr "Logo CB Connect"
+
+# @generated
+#: ui/js/generalsettings.js:37
+#: ui/ux1pcp/settings.js:20
+msgid "Centralized management of integration from the CloudBlue Connect to the CloudBlue Commerce."
+msgstr "Gestion centralisée de l'intégration entre CloudBlue Connect et CloudBlue Commerce."
+
+# @generated
+#: APP-META.xml:8
+#: APP-META.xml:12
+msgid "CloudBlue"
+msgstr "CloudBlue"
+
+# @generated
+#: APP-META.xml:84
+msgid "CloudBlue Connect"
+msgstr "CloudBlue Connect"
+
+# @generated
+#: APP-META.xml:18
+#: ui/js/generalsettings.js:33
+#: ui/ux1pcp/settings.js:24
+msgid "CloudBlue Connect Extension"
+msgstr "Extension CloudBlue Connect"
+
+# @generated
+#: APP-META.xml:166
+msgid "CloudBlue Connect Extension Application Service"
+msgstr "Service de l'application d'extension CloudBlue Connect"
+
+# @generated
+#: APP-META.xml:170
+msgid "CloudBlue Connect Extension Documentation"
+msgstr "Documentation de l'extension CloudBlue Connect"
+
+# @generated
+#: APP-META.xml:188
+msgid "CloudBlue Connect Extension Initialization task service"
+msgstr "Service de la tâche d'initialisation de l'extension CloudBlue Connect"
+
+# @generated
+#: APP-META.xml:181
+msgid "CloudBlue Connect Extension Tier Configuration Service"
+msgstr "Service de configuration de niveau d'extension CloudBlue Connect"
+
+# @generated
+#: APP-META.xml:173
+msgid "CloudBlue Connect Provider Portal"
+msgstr "Portail du fournisseur CloudBlue Connect"
+
+# @generated
+#: ui/js/productmanagement.js:220
+#: ui/ux1pcp/productmanagement.js:404
+msgid "Completed"
+msgstr "Terminé"
+
+# @generated
+#: ui/js/tierconfiglist.js:46
+#: ui/ux1/tierconfigs.js:98
+#: ui/ux1/viewconfig.js:190
+msgid "Configuration ID"
+msgstr "ID de configuration"
+
+# @generated
+#: APP-META.xml:76
+#: APP-META.xml:125
+#: APP-META.xml:128
+#: APP-META.xml:134
+msgid "Connect"
+msgstr "Connect"
+
+# @generated
+#: ui/js/generalsettings.js:14
+msgid "Connect Cloudblue Commerce extension is not properly installed"
+msgstr "L'extension Connect Cloudblue Commerce n'est pas correctement installée"
+
+# @generated
+#: ui/js/productmanagement.js:126
+#: ui/ux1pcp/productmanagement.js:202
+msgid "Connection ID"
+msgstr "ID de connexion"
+
+# @generated
+#: ui/ux1pcp/productmanagement.js:464
+msgid "Create Connection"
+msgstr "Créer une connexion"
+
+# @generated
+#: ui/js/productmanagement.js:180
+#: ui/ux1pcp/productmanagement.js:364
+msgid "Created RT #"
+msgstr "RT # créé"
+
+# @generated
+#: ui/js/productmanagement.js:189
+#: ui/ux1pcp/productmanagement.js:373
+msgid "Created ST ID"
+msgstr "ID du ST créé"
+
+# @generated
+#: ui/js/productmanagement.js:206
+#: ui/ux1pcp/productmanagement.js:390
+msgid "Creating application instance"
+msgstr "Création d'une instance de l'application"
+
+# @generated
+#: ui/js/productmanagement.js:210
+#: ui/ux1pcp/productmanagement.js:394
+msgid "Creating item RTs"
+msgstr "Création des RT de l'élément"
+
+# @generated
+#: ui/js/productmanagement.js:212
+#: ui/ux1pcp/productmanagement.js:396
+msgid "Creating ST"
+msgstr "Création d'un ST"
+
+# @generated
+#: ui/js/productmanagement.js:208
+#: ui/ux1pcp/productmanagement.js:392
+msgid "Creating system RTs"
+msgstr "Création de RT système"
+
+# @generated
+#: APP-META.xml:63
+#: APP-META.xml:108
+#: ui/js/productmanagement.js:229
+#: ui/js/productmanagement.js:236
+#: ui/ux1pcp/productmanagement.js:413
+#: ui/ux1pcp/productmanagement.js:420
+msgid "Details"
+msgstr "Détails"
+
+# @generated
+#: ui/ux1pcp/settings.js:163
+msgid "Do you want to upgrade the CloudBlue Connect Extension Now?"
+msgstr "Vous souhaitez mettre à niveau l'extension CloudBlue Connect maintenant ?"
+
+# @generated
+#: ui/ux1pcp/productmanagement.js:243
+msgid "Do you want to __operation__ this product now?"
+msgstr "Voulez-vous __operation__ ce produit maintenant ?"
+
+# @generated
+#: ui/ux1/viewconfig.js:205
+msgid "Edit"
+msgstr "Modifier"
+
+# @generated
+#: APP-META.xml:67
+msgid "Edit Parameters"
+msgstr "Modifier les paramètres"
+
+# @generated
+#: ui/ux1pcp/settings.js:37
+msgid "Error"
+msgstr "Erreur"
+
+# @generated
+#: ui/js/viewconfig.js:192
+#: ui/ux1/editparams.js:117
+msgid "Error updating configuration, try again later"
+msgstr "Erreur de mise à jour de la configuration, réessayez plus tard"
+
+# @generated
+#: ui/js/generalsettings.js:250
+msgid "Error while passing healthcheck:"
+msgstr "Erreur lors de l'analyse du contrôle d'intégrité :"
+
+# @generated
+#: ui/ux1pcp/settings.js:229
+msgid "Error while performing system health check:"
+msgstr "Lors de l'exécution du contrôle d'intégrité du système :"
+
+# @generated
+#: ui/js/generalsettings.js:208
+#: ui/ux1pcp/settings.js:199
+msgid "Error while scheduling upgrade task:"
+msgstr "Erreur lors de la planification de la tâche de mise à niveau :"
+
+# @generated
+#: ui/js/productmanagement.js:162
+#: ui/ux1pcp/productmanagement.js:346
+msgid "Executed"
+msgstr "Exécuté(e)"
+
+# @generated
+#: schemas/globals.schema:24
+msgid "External ID"
+msgstr "ID externe"
+
+# @generated
+#: schemas/globals.schema:25
+msgid "External ID for this CloudBlue Commerce instance"
+msgstr "ID externe pour cette instance CloudBlue Commerce"
+
+# @generated
+#: ui/js/generalsettings.js:157
+#: ui/ux1pcp/settings.js:141
+msgid "Health check error:"
+msgstr "Erreur de contrôle d'intégrité :"
+
+# @generated
+#: ui/js/productmanagement.js:152
+#: ui/ux1pcp/productmanagement.js:224
+msgid "Here you can find the list of actions performed to this product. To learn more about this extension, please refer to "
+msgstr "Vous trouverez ici la liste des actions effectuées sur ce produit. Pour en savoir plus sur cette extension, veuillez vous référer à"
+
+# @generated
+#: ui/js/mylist.js:169
+msgid "Here you can manage services from subscriptions assigned to your account directly."
+msgstr "Vous pourrez gérer ici directement les services des abonnements affectés à votre compte."
+
+# @generated
+#: APP-META.xml:13
+msgid "https://connect.cloudblue.com"
+msgstr "https://connect.cloudblue.com"
+
+# @generated
+#: APP-META.xml:9
+msgid "https://connect.cloudblue.com/"
+msgstr "https://connect.cloudblue.com/"
+
+# @generated
+#: ui/ux1pcp/settings.js:86
+msgid "Hub ID"
+msgstr "ID du hub"
+
+# @generated
+#: schemas/globals.schema:15
+msgid "Hub Identifier"
+msgstr "Identifiant du hub"
+
+# @generated
+#: schemas/globals.schema:16
+msgid "Hub Identifier that represents this CloudBlue Commerce instance at CloudBlue Connect"
+msgstr "Identifiant du hub qui représente cette instance de CloudBlue Commerce dans CloudBlue Connect"
+
+# @generated
+#: ui/ux1pcp/settings.js:81
+msgid "Hub Instance ID"
+msgstr "ID d'instance du hub"
+
+# @generated
+#: schemas/productInitTask.schema:33
+msgid "ID of the ST created on install operations"
+msgstr "ID du ST créé lors des opérations d'installation"
+
+# @generated
+#: ui/js/productmanagement.js:222
+#: ui/ux1pcp/productmanagement.js:406
+msgid "Importing application"
+msgstr "Importation de l'application"
+
+# @generated
+#: ui/js/viewconfig.js:215
+#: ui/js/viewconfig.js:221
+msgid "Information provided to vendor"
+msgstr "Informations transmises au fournisseur"
+
+# @generated
+#: APP-META.xml:45
+msgid "Initial release"
+msgstr "Version initiale"
+
+# @generated
+#: ui/js/tierconfiglist.js:82
+#: ui/ux1/tierconfigs.js:134
+#: ui/ux1/viewconfig.js:160
+msgid "Inquiring"
+msgstr "Requête en cours"
+
+# @generated
+#: ui/js/productmanagement.js:44
+#: ui/ux1pcp/productmanagement.js:270
+msgid "Installation process initiated"
+msgstr "Procédure d'installation initiée"
+
+# @generated
+#: ui/js/tierconfiglist.js:124
+#: ui/js/tierconfiglist.js:133
+#: ui/ux1/tierconfigs.js:176
+#: ui/ux1/tierconfigs.js:185
+msgid "is not available now, please try again later."
+msgstr "n'est pas disponible, veuillez réessayer ultérieurement."
+
+# @generated
+#: ui/ux1pcp/productmanagement.js:46
+#: ui/ux1/viewconfig.js:44
+msgid "Loading"
+msgstr "Chargement en cours"
+
+# @generated
+#: ui/js/tierconfiglist.js:113
+#: ui/js/mylist.js:247
+#: ui/js/generalsettings.js:122
+#: ui/ux1pcp/settings.js:269
+#: ui/ux1/tierconfigs.js:165
+msgid "Manage"
+msgstr "Gérer"
+
+# @generated
+#: ui/js/mylist.js:261
+msgid "Manage Backup"
+msgstr "Gérer la sauvegarde"
+
+# @generated
+#: ui/js/mylist.js:271
+msgid "Manage Cloud Storage"
+msgstr "Gérer Cloud Storage"
+
+# @generated
+#: APP-META.xml:86
+#: APP-META.xml:136
+msgid "Manage Product"
+msgstr "Gérer le produit"
+
+# @generated
+#: ui/js/tierconfiglist.js:20
+#: ui/ux1/tierconfigs.js:68
+msgid "Manage settings of the products in your account here."
+msgstr "Gérez ici les paramètres des produits dans votre compte."
+
+# @generated
+#: ui/js/tierconfiglist.js:124
+#: ui/js/tierconfiglist.js:133
+#: ui/ux1/tierconfigs.js:176
+#: ui/ux1/tierconfigs.js:185
+msgid "Managing of product "
+msgstr "Gestion de produit"
+
+# @generated
+#: ui/js/productmanagement.js:256
+#: ui/ux1pcp/productmanagement.js:149
+msgid "Missing Connection"
+msgstr "Connexion manquante"
+
+# @generated
+#: ui/js/mylist.js:296
+msgid "Mozy Account"
+msgstr "Compte Mozy"
+
+# @generated
+#: ui/js/mylist.js:286
+msgid "Mozy Reseller"
+msgstr "Revendeur Mozy"
+
+# @generated
+#: APP-META.xml:51
+#: APP-META.xml:60
+#: APP-META.xml:96
+#: APP-META.xml:102
+#: APP-META.xml:104
+#: APP-META.xml:107
+msgid "My Services"
+msgstr "Mes services"
+
+# @generated
+#: ui/ux1pcp/productmanagement.js:160
+msgid "New Version available"
+msgstr "Nouvelle version disponible"
+
+# @generated
+#: ui/ux1pcp/productmanagement.js:245
+#: ui/ux1pcp/settings.js:162
+msgid "No"
+msgstr "Non"
+
+# @generated
+#: ui/js/productmanagement.js:158
+#: ui/ux1pcp/productmanagement.js:231
+msgid "No actions performed to this product"
+msgstr "Aucune action effectuée sur ce produit"
+
+# @generated
+#: ui/js/productmanagement.js:129
+msgid "No Connection available"
+msgstr "Aucune connexion disponible"
+
+# @generated
+#: ui/ux1/viewconfig.js:215
+msgid "No parameters available matching your search criteria"
+msgstr "Aucun paramètre disponible ne correspond à vos critères de recherche"
+
+# @generated
+#: ui/js/tierconfiglist.js:27
+#: ui/js/mylist.js:176
+#: ui/ux1pcp/settings.js:102
+#: ui/ux1/tierconfigs.js:75
+msgid "No services available matching your search criteria"
+msgstr "Aucun service disponible ne correspond à vos critères de recherche"
+
+# @generated
+#: schemas/productInitTask.schema:39
+msgid "Number of retries in current step"
+msgstr "Nombre de tentatives dans l'étape en cours"
+
+# @generated
+#: ui/js/productmanagement.js:174
+#: ui/ux1pcp/productmanagement.js:358
+msgid "Operation"
+msgstr "Opération"
+
+# @generated
+#: ui/js/productmanagement.js:292
+#: ui/js/productmanagement.js:328
+#: ui/ux1pcp/productmanagement.js:154
+msgid "Operation in progress"
+msgstr "Opération en cours"
+
+# @generated
+#: schemas/productInitTask.schema:22
+msgid "Operation step"
+msgstr "État d'opération"
+
+# @generated
+#: ui/js/productmanagement.js:152
+#: ui/js/generalsettings.js:78
+#: ui/ux1pcp/productmanagement.js:224
+#: ui/ux1pcp/settings.js:95
+msgid "our documentation"
+msgstr "notre documentation"
+
+# @generated
+#: ui/ux1/viewconfig.js:304
+msgid "Parameter"
+msgstr "Paramètre"
+
+# @generated
+#: ui/ux1/viewconfig.js:203
+msgid "Parameters"
+msgstr "Paramètres"
+
+# @generated
+#: ui/js/viewconfig.js:124
+#: ui/js/viewconfig.js:142
+#: ui/ux1/editparams.js:55
+#: ui/ux1/editparams.js:75
+msgid "Please provide value"
+msgstr "Veuillez fournir une valeur"
+
+# @generated
+#: ui/js/generalsettings.js:78
+#: ui/ux1pcp/settings.js:95
+msgid "Please refer to the list below to manage products available to you through the Provider Portal of the CloudBlue Connect. To learn more about this extension, please refer to "
+msgstr "Veuillez vous référer à la liste ci-dessous pour gérer les produits mis à votre disposition par le biais du portail des fournisseurs de CloudBlue Connect. Pour en savoir plus sur cette extension, veuillez vous référer à"
+
+# @generated
+#: ui/ux1pcp/productmanagement.js:124
+msgid "Please wait while you are being redirected to Provider Portal..."
+msgstr "Veuillez patienter pendant que nous vous redirigeons vers le portail des fournisseurs..."
+
+# @generated
+#: ui/ux1/viewconfig.js:122
+msgid "Please wait while you are being redirected..."
+msgstr "Veuillez patienter pendant que nous vous redirigeons..."
+
+# @generated
+#: ui/js/tierconfiglist.js:87
+#: ui/ux1/tierconfigs.js:139
+msgid "Processing"
+msgstr "Traitement en cours"
+
+# @generated
+#: ui/js/tierconfiglist.js:34
+#: ui/js/productmanagement.js:122
+#: ui/js/generalsettings.js:98
+#: ui/ux1pcp/productmanagement.js:197
+#: ui/ux1pcp/settings.js:245
+#: ui/ux1/tierconfigs.js:92
+#: ui/ux1/viewconfig.js:195
+msgid "Product ID"
+msgstr "ID du produit"
+
+# @generated
+#: schemas/productInitTask.schema:12
+msgid "Product ID task refers to"
+msgstr "La tâche d'ID du produit se réfère à"
+
+# @generated
+#: ui/js/generalsettings.js:141
+#: ui/ux1pcp/settings.js:130
+msgid "Product Management operations are disabled due lack of CloudBlue Connect openapi adapter installed on this hub"
+msgstr "Les opérations de gestion des produits sont désactivées en raison de l'absence de l'adaptateur OpenAPI CloudBlue Connect installé sur ce hub"
+
+# @generated
+#: APP-META.xml:39
+msgid "Product management over UI"
+msgstr "Gestion de produit via l'interface utilisateur"
+
+# @generated
+#: ui/js/tierconfiglist.js:40
+#: ui/js/generalsettings.js:92
+#: ui/ux1pcp/settings.js:239
+#: ui/ux1/tierconfigs.js:86
+msgid "Product Name"
+msgstr "Nom du produit"
+
+# @generated
+#: schemas/globals.schema:30
+msgid "Provider Account Name"
+msgstr "Nom du compte du fournisseur"
+
+# @generated
+#: ui/js/mylist.js:224
+msgid "Provisioning"
+msgstr "Approvisionnement"
+
+# @generated
+#: ui/js/taskDetails.js:14
+msgid "Raw operation execution details"
+msgstr "Détails de l'exécution de l'opération brute"
+
+# @generated
+#: ui/js/tierconfiglist.js:58
+#: ui/js/tierconfiglist.js:72
+#: ui/js/mylist.js:212
+#: ui/ux1pcp/settings.js:53
+#: ui/ux1/tierconfigs.js:110
+#: ui/ux1/tierconfigs.js:124
+#: ui/ux1/viewconfig.js:152
+msgid "Ready"
+msgstr "Prêt"
+
+# @generated
+#: ui/ux1pcp/productmanagement.js:170
+msgid "Ready for install"
+msgstr "Prêt pour l'installation"
+
+# @generated
+#: APP-META.xml:33
+msgid "Renamed Settings to My Services for handling TCR"
+msgstr "Paramètres renommés en Mes services pour la gestion TCR"
+
+# @generated
+#: ui/js/tierconfiglist.js:103
+#: ui/ux1/tierconfigs.js:155
+msgid "Requires attention"
+msgstr "Demande une attention particulière"
+
+# @generated
+#: schemas/productInitTask.schema:28
+msgid "Run operation also for EOS items"
+msgstr "Exécuter l'opération également pour les éléments EOS"
+
+# @generated
+#: APP-META.xml:69
+#: ui/js/viewconfig.js:164
+msgid "Save"
+msgstr "Enregistrer"
+
+# @generated
+#: APP-META.xml:189
+msgid "Service to handle initialization tasks of products"
+msgstr "Service permettant de gérer les tâches d'initialisation des produits"
+
+# @generated
+#: APP-META.xml:182
+msgid "Service to import Tier Configuration Schema, do not create any instance of it"
+msgstr "Service permettant d'importer le schéma de configuration des niveaux, ne créez aucune instance de celui-ci"
+
+# @generated
+#: APP-META.xml:135
+msgid "Settings"
+msgstr "Paramètres"
+
+# @generated
+#: ui/js/mylist.js:15
+#: ui/js/mylist.js:25
+msgid "Sorry, this functionality is not available for accounts with sub-resellers."
+msgstr "Désolé, cette fonctionnalité n'est pas disponible pour les comptes avec des sous-revendeurs."
+
+# @generated
+#: ui/js/tierconfiglist.js:52
+#: ui/js/productmanagement.js:198
+#: ui/ux1pcp/productmanagement.js:382
+#: ui/ux1/tierconfigs.js:104
+msgid "Status"
+msgstr "Statut"
+
+# @generated
+#: ui/js/generalsettings.js:150
+#: ui/js/generalsettings.js:243
+msgid "Status: Error"
+msgstr "Statut : Erreur"
+
+# @generated
+#: ui/js/generalsettings.js:222
+#: ui/js/generalsettings.js:232
+msgid "Status: OK"
+msgstr "Statut : OK"
+
+# @generated
+#: ui/js/generalsettings.js:164
+msgid "Status: Upgrade Available"
+msgstr "Statut : Mise à niveau disponible"
+
+# @generated
+#: ui/js/mylist.js:181
+msgid "Subscription Id"
+msgstr "ID de l'abonnement"
+
+# @generated
+#: ui/js/mylist.js:198
+msgid "Subscription Name"
+msgstr "Nom de l'abonnement"
+
+# @generated
+#: ui/js/mylist.js:204
+msgid "Subscription Status"
+msgstr "Statut de l'abonnement"
+
+# @generated
+#: APP-META.xml:115
+#: APP-META.xml:116
+msgid "Subscriptions"
+msgstr "Abonnements"
+
+# @generated
+#: APP-META.xml:143
+msgid "Task Details"
+msgstr "Détails de la tâche"
+
+# @generated
+#: ui/ux1pcp/productmanagement.js:429
+msgid "Task details"
+msgstr "Détails de la tâche"
+
+# @generated
+#: schemas/productInitTask.schema:18
+msgid "Task operation"
+msgstr "Opération de la tâche"
+
+# @generated
+#: ui/js/generalsettings.js:85
+#: ui/ux1pcp/settings.js:101
+msgid "There are no products available, please check your products on provider portal."
+msgstr "Il n'y a pas de produits disponibles, veuillez vérifier vos produits sur le portail des fournisseurs."
+
+# @generated
+#: ui/ux1pcp/settings.js:66
+msgid "This extension is configured with the following settings:"
+msgstr "Cette extension est configurée avec les paramètres suivants :"
+
+# @generated
+#: ui/ux1/viewconfig.js:214
+msgid "This product has no parameters"
+msgstr "Ce produit n'a pas de paramètres"
+
+# @generated
+#: ui/js/mylist.js:217
+msgid "Trial"
+msgstr "Test"
+
+# @generated
+#: ui/js/mylist.js:229
+msgid "Unprovisioning"
+msgstr "Déprovisioning"
+
+# @generated
+#: ui/js/productmanagement.js:349
+#: ui/ux1pcp/productmanagement.js:165
+msgid "Up to Date"
+msgstr "À jour"
+
+# @generated
+#: ui/js/viewconfig.js:153
+msgid "Update Information"
+msgstr "Mettre à jour les informations"
+
+# @generated
+#: APP-META.xml:42
+msgid "Update release with backend support for multiple operations"
+msgstr "Mettre à jour la version avec une prise en charge backend des opérations multiples"
+
+# @generated
+#: APP-META.xml:36
+msgid "Updated mechanism to get TARs"
+msgstr "Mécanisme mis à jour pour obtenir les TAR"
+
+# @generated
+#: ui/js/tierconfiglist.js:62
+#: ui/js/tierconfiglist.js:77
+#: ui/js/viewconfig.js:250
+#: ui/ux1/tierconfigs.js:114
+#: ui/ux1/tierconfigs.js:129
+#: ui/ux1/viewconfig.js:156
+msgid "Updating"
+msgstr "Mise à jour en cours"
+
+# @generated
+#: ui/js/generalsettings.js:40
+#: ui/ux1pcp/settings.js:31
+msgid "Updating Status"
+msgstr "Mise à jour du statut"
+
+# @generated
+#: ui/ux1pcp/settings.js:154
+msgid "Upgrade"
+msgstr "Mise à niveau"
+
+# @generated
+#: ui/ux1pcp/settings.js:42
+msgid "Upgrade Available"
+msgstr "Mise à niveau disponible"
+
+# @generated
+#: ui/ux1pcp/settings.js:160
+msgid "Upgrade Extension"
+msgstr "Extension de mise à niveau"
+
+# @generated
+#: ui/js/generalsettings.js:172
+msgid "Upgrade Now"
+msgstr "Mettre à niveau maintenant"
+
+# @generated
+#: ui/js/generalsettings.js:203
+#: ui/ux1pcp/settings.js:194
+msgid "Upgrade of CloudBlue Connect extension initiated"
+msgstr "Mise à niveau de l'extension CloudBlue Connect initiée"
+
+# @generated
+#: ui/ux1pcp/settings.js:47
+msgid "Upgrading"
+msgstr "Mise à niveau"
+
+# @generated
+#: ui/js/productmanagement.js:216
+#: ui/ux1pcp/productmanagement.js:400
+msgid "Upgrading application instance"
+msgstr "Mise à niveau de l'instance de l'application"
+
+# @generated
+#: ui/ux1/viewconfig.js:308
+msgid "Value"
+msgstr "Valeur"
+
+# @generated
+#: ui/js/productmanagement.js:134
+#: ui/js/generalsettings.js:110
+#: ui/ux1pcp/productmanagement.js:212
+#: ui/ux1pcp/settings.js:257
+msgid "Vendor ID"
+msgstr "ID du fournisseur"
+
+# @generated
+#: ui/js/productmanagement.js:138
+#: ui/js/generalsettings.js:104
+#: ui/ux1pcp/productmanagement.js:207
+#: ui/ux1pcp/settings.js:251
+msgid "Vendor Name"
+msgstr "Nom du fournisseur"
+
+# @generated
+#: ui/js/productmanagement.js:338
+msgid "Version __version__ available"
+msgstr "Version __version__ disponible"
+
+# @generated
+#: ui/js/productmanagement.js:218
+#: ui/ux1pcp/productmanagement.js:402
+msgid "Waiting for application upgrade completion"
+msgstr "En attente de la fin de la mise à niveau de l'application"
+
+# @generated
+#: ui/js/productmanagement.js:362
+#: ui/ux1pcp/productmanagement.js:435
+#: ui/ux1pcp/productmanagement.js:559
+msgid "We are sorry, an error has happened, please try again later"
+msgstr "Nous sommes désolés mais une erreur s'est produite, veuillez réessayer plus tard"
+
+# @generated
+#: ui/ux1pcp/productmanagement.js:244
+#: ui/ux1pcp/settings.js:161
+msgid "Yes"
+msgstr "Oui"
+
+# @generated
+#: ui/js/tierconfiglist.js:26
+#: ui/ux1/tierconfigs.js:74
+msgid "You do not have products that require management."
+msgstr "Vous n'avez pas de produits qui nécessitent une gestion."
+
+# @generated
+#: ui/js/mylist.js:175
+msgid "You do not have services that require management yet."
+msgstr "Vous n'avez pas encore de services qui nécessitent une gestion."
+
+# @generated
+#: ui/ux1pcp/productmanagement.js:242
+msgid "__operation__ Extension"
+msgstr "__operation__ l'extension"
+

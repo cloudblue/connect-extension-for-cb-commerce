@@ -1,0 +1,79 @@
+{
+   "apsVersion":"2.0",
+   "name":"app",
+   "id":"http://odin.com/app/productInitTask/1.1",
+   "implements":[
+      "http://aps-standard.org/types/core/resource/1.0"
+   ],
+   "properties":{
+      "productId":{
+         "type":"string",
+         "required":true,
+         "title":"Product ID task refers to",
+         "final":true
+      },
+      "operation":{
+         "type":"string",
+         "required":true,
+         "title":"Task operation"
+      },
+      "step":{
+         "type":"string",
+         "title":"Operation step"
+      },
+      "includeEoS":{
+         "type":"boolean",
+         "required":true,
+         "default":false,
+         "title":"Run operation also for EOS items"
+      },
+      "stid":{
+         "type":"integer",
+         "required":false,
+         "title":"ID of the ST created on install operations",
+         "readonly":true
+      },
+      "retries": {
+        "type": "integer",
+        "required": false,
+        "title": "Number of retries in current step"
+      },
+      "rts":{
+         "type":"array",
+         "items": {
+            "type": "oa_rt"
+         },
+         "required":false,
+         "readonly":true
+      }
+   },
+   "structures":{
+      "oa_rt":{
+         "type": "object",
+         "properties":{
+            "name":{
+               "type":"string"
+            },
+            "class":{
+               "type":"string"
+            },
+            "limit":{
+               "type":"integer"
+            },
+            "local_id":{
+               "type":"string"
+            },
+            "id": {
+                "type": "integer"
+            }
+         }
+      }
+   },
+   "relations":{
+      "globals":{
+         "type":"http://odin.com/servicesSelector/globals/2.3",
+         "required":true,
+         "collection":false
+      }
+   }
+}

@@ -1,0 +1,237 @@
+<application packaged="2020-04-14T18:09:19" version="2.0" xmlns="http://aps-standard.org/ns/2">
+    <id>http://odin.com/servicesSelector</id>
+    <name>CloudBlue Connect Extension</name>
+    <version>26.0</version>
+    <release>2</release>
+    <homepage>https://connect.cloudblue.com</homepage>
+    <vendor>
+        <name>CloudBlue</name>
+        <homepage>https://connect.cloudblue.com/</homepage>
+    </vendor>
+    <packager>
+        <name>CloudBlue</name>
+        <homepage>https://connect.cloudblue.com</homepage>
+        <uri>http://www.odin.com</uri>
+    </packager>
+
+    <presentation>
+        <summary>CloudBlue Connect Extension</summary>
+        <description>Application that provides integration with CloudBlue Connect, with this
+            application provider can
+            handle operations such as adding connect products, centralize account data changes,
+            handle automatic usage
+            file processing, periodic health checks, handle tier configurations for provider and
+            resellers, etc.
+            Each hub using CloudBlue Connect must have it installed.
+        </description>
+        <icon path="ui/images/Connect.png"/>
+        <screenshot path="ui/images/cbconnectlogofull.png">
+            <description>CB Connect Logo</description>
+        </screenshot>
+        <changelog>
+            <version version="26.0" release="2">
+                <entry>Tier Configurations localization support</entry>
+            </version>
+            <version version="26.0" release="1">
+                <entry>Support for dynamic parameters</entry>
+            </version>
+            <version version="25.0" release="3">
+                <entry>Fixed issue that caused wrong localization of dashboard</entry>
+            </version>
+            <version version="25.0" release="2">
+                <entry>Updated spanish locale</entry>
+            </version>
+            <version version="25.0" release="1">
+                <entry>Support for Connect version 25. Multiple performance improvements</entry>
+            </version>
+            <version version="24.0" release="1">
+                <entry>Added support for scheduled actions at vendor and distributor side. Multiple performance improvements</entry>
+            </version>
+            <version version="23.0" release="1">
+                <entry>Added support for vendor adjustments, parameter change on change orders, support of inquiring state on change orders on assets and tier configurations</entry>
+            </version>
+            <version version="22.0" release="2">
+                <entry>Vendor id can't be sorted on product list for pcp and ux1 screens</entry>
+            </version>
+            <version version="22.0" release="1">
+                <entry>Minor adjustments and alignament with Connect v22 release</entry>
+            </version>
+            <version version="21.0" release="11">
+                <entry>Added Home tile</entry>
+            </version>
+            <version version="20.0" release="10">
+                <entry>Corrected issue that prevented editing of parameters when hidden</entry>
+            </version>
+            <version version="20.0" release="9">
+                <entry>Improved navigation calculation performance</entry>
+            </version>
+            <version version="20.0" release="8">
+                <entry>Added capability to handle new Connect parameter types</entry>
+                <entry>Added localization for Spanish, German, French, Italian, Japanese, Dutch, Portuguese and Russian</entry>
+            </version>
+            <version version="19.3" release="3">
+                <entry>Renamed Settings to My Services for handling TCR</entry>
+            </version>
+            <version version="19.3" release="1">
+                <entry>Updated mechanism to get TARs</entry>
+            </version>
+            <version version="19.2" release="115">
+                <entry>Product management over UI</entry>
+            </version>
+            <version release="10" version="19.1">
+                <entry>Update release with backend support for multiple operations</entry>
+            </version>
+            <version release="1" version="1.0">
+                <entry>Initial release</entry>
+            </version>
+        </changelog>
+        <categories>
+            <category>System</category>
+        </categories>
+        <navigation id="ux1-reseller-plugins" label="plugins store">
+            <view-plugin id="TCR-Tile" src="ui/ux1/dashboard.js" visible="eq(_is_reseller, true())">
+                <var name="marketplaceApp" required="true" type-id="http://www.parallels.com/marketplace/1.12"/>
+                <var name="extension" required="true" type-id="http://odin.com/servicesSelector/globals/2.0"/>
+                <plugs-to id="http://www.parallels.com/ccp-dashboard#ux1-dashboard"/>
+            </view-plugin>
+        </navigation>
+        <navigation icon="ui/images/fa-handshake.svg" id="ux1" label="Reseller Authorization">
+            <var name="servicesglobals" type-id="http://odin.com/servicesSelector/globals/2.0"/>
+            <var name="marketplaceApp" required="true"
+                 type-id="http://www.parallels.com/marketplace/1.12"/>
+            <plugs-to id="http://www.aps-standard.org/ui/rcp/2"/>
+            <plugs-to id="http://www.aps-standard.org/ui/pcp/2"/>
+            <view id="tierconfigsux1" label="Reseller Authorization" src="ui/ux1/tierconfigs.js">
+                <var collection="true" name="tierconfigs" required="false"
+                     type-id="http://odin.com/app/tier-config/1.0"/>
+                <view id="viewconfigux1" label="Details" src="ui/ux1/viewconfig.js">
+                    <params>
+                        <param name="tierConfig" required="true" type="object"/>
+                    </params>
+                    <view id="editparams" label="Edit Parameters" src="ui/ux1/editparams.js">
+                        <controls>
+                            <submit label="Save"/>
+                            <cancel label="Cancel"/>
+                        </controls>
+                    </view>
+                </view>
+            </view>
+        </navigation>
+        <navigation icon="ui/images/connect.svg" id="pcpux1" label="Connect">
+            <var filter="eq(id,1)" name="adminData" required="true"
+                 type-id="http://parallels.com/aps/types/pa/account"/>
+            <var name="globalSettings" required="true"
+                     type-id="http://odin.com/servicesSelector/globals/2.0"/>
+            <var name="openapiadapter" required="false"
+                     type-id="http://connect.cloudblue.com/aps-openapi-adapter/app/1.0"/>
+            <plugs-to id="http://www.aps-standard.org/ui/pcp/2"/>
+            <view id="connectux1" label="CloudBlue Connect" src="ui/ux1pcp/settings.js">
+                <view id="productmanagementux1" label="Manage Product"
+                      src="ui/ux1pcp/productmanagement.js">
+                    <var name="productInitTasks" required="false" collection="true"
+                         filter="ne(aps.status,aps:unprovisioning)"
+                         type-id="http://odin.com/app/productInitTask/1.0"/>
+                    <params>
+                        <param name="product" required="true" type="string"/>
+                    </params>
+                </view>
+            </view>
+        </navigation>
+        <navigation id="rcp" label="My Services">
+            <var name="servicesglobals" type-id="http://odin.com/servicesSelector/globals/2.0"/>
+            <var collection="false" name="admin"
+                 required="false"
+                 filter="eq(type,RESELLER),sort(-id),limit(0,1)"
+                 type-id="http://parallels.com/aps/types/pa/account"/>
+            <plugs-to id="http://www.aps-standard.org/ui/application"/>
+            <item id="listing" label="My Services">
+                <plugs-to id="http://www.parallels.com/poa/pcp/services"/>
+                <item id="tierconfiglist" label="My Services">
+                    <var collection="true" name="tierconfigapps" required="false"
+                         type-id="http://odin.com/app/tier-config/1.0"/>
+                    <view id="tierconfiglist" label="My Services" src="ui/proxy.html">
+                        <view id="viewconfig" label="Details" src="ui/proxy.html">
+                            <params>
+                                <param name="tierConfig" required="true" type="object"/>
+                            </params>
+                        </view>
+                    </view>
+                </item>
+                <item id="mylisting" label="Subscriptions" visible="eq(_is_reseller, true())">
+                    <view id="mylist" label="Subscriptions" src="ui/proxy.html">
+                        <placeholder
+                                id="http://www.odin.com/products/services-selector/placeholder"/>
+                        <placeholder
+                                id="http://www.odin.com/products/services-selector/placeholder2"/>
+                    </view>
+                </item>
+            </item>
+        </navigation>
+        <navigation id="system" label="Connect">
+            <var filter="eq(id,1)" name="adminData" required="true"
+                 type-id="http://parallels.com/aps/types/pa/account"/>
+            <item id="cloudblueconnectextension" label="Connect">
+                <var name="globalSettings" required="true"
+                     type-id="http://odin.com/servicesSelector/globals/2.0"/>
+                <var name="openapiadapter" required="false"
+                     type-id="http://connect.cloudblue.com/aps-openapi-adapter/app/1.0"/>
+                <plugs-to id="http://www.parallels.com/poa/pcp/system"/>
+                <item id="generalsettings" label="Connect">
+                    <view id="generalsettings" label="Settings" src="ui/proxy.html">
+                        <view id="productmanagement" label="Manage Product" src="ui/proxy.html">
+                            <var name="productInitTasks" required="false" collection="true"
+                                 filter="ne(aps.status,aps:unprovisioning)"
+                                 type-id="http://odin.com/app/productInitTask/1.0"/>
+                            <params>
+                                <param name="product" required="true" type="string"/>
+                            </params>
+                            <view id="taskDetails" label="Task Details" src="ui/proxy.html">
+                                <params>
+                                    <param name="product" required="true" type="string"/>
+                                    <param name="taskId" required="true" type="string"/>
+                                </params>
+                            </view>
+                        </view>
+                    </view>
+                </item>
+            </item>
+        </navigation>
+    </presentation>
+    <license-agreement>
+        <free/>
+        <text>
+            <name>End-User License Agreement</name>
+            <url>http://opensource.org/licenses/bsd-license</url>
+        </text>
+    </license-agreement>
+    <upgrade match="version=ge=0.1"/>
+    <service id="globals">
+        <schema path="schemas/globals.schema"/>
+        <presentation>
+            <name>CloudBlue Connect Extension Application Service</name>
+            <summary>Application service</summary>
+            <infolinks>
+                <link href="https://connect.cloudblue.com/documentation/extensions/cloudblue-commerce/"
+                      class="deployment-guide">CloudBlue Connect Extension Documentation
+                </link>
+                <link href="https://provider.connect.cloudblue.com"
+                      class="support">CloudBlue Connect Provider Portal
+                </link>
+            </infolinks>
+        </presentation>
+    </service>
+    <service id="tierConfig">
+        <schema path="schemas/tierConfig.schema"/>
+        <presentation>
+            <name>CloudBlue Connect Extension Tier Configuration Service</name>
+            <summary>Service to import Tier Configuration Schema, do not create any instance of it</summary>
+        </presentation>
+    </service>
+    <service id="productInitTask">
+        <schema path="schemas/productInitTask.schema"/>
+        <presentation>
+            <name>CloudBlue Connect Extension Initialization task service</name>
+            <summary>Service to handle initialization tasks of products</summary>
+        </presentation>
+    </service>
+</application>
