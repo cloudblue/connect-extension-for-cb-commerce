@@ -1,8 +1,8 @@
 {
   "name": "cbc",
-  "description": "Project description",
+  "description": "Connect Extension for CB Commerce",
   "version": "0.1.0",
   "audience": ["distributor", "reseller"],
-  "readme_url": "https://example.com/README.md",
-  "changelog_url": "https://example.com/CHANGELOG.md"
+  "readme_url": "https://github.com/cloudblue/connect-extension-for-cb-commerce/README.md",
+  "changelog_url": "https://github.com/cloudblue/connect-extension-for-cb-commerce/CHANGELOG.md"
 }
